@@ -23,3 +23,12 @@ body{
 .ReguladorDeFlujo{
     clear: both;
 }
+
+#EspacioInutil{
+    width: 100%;
+    height: 20px;
+}
+
+#ContenedorMain{
+    margin: 0px 20px;
+}
