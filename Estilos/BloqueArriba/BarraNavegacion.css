@@ -1,0 +1,87 @@
+#BarraNavegacion{
+    font-family: Arial;
+    font-size: 15px;
+    overflow-y: visible;
+}
+
+#Menu{
+    width: 100%;
+    height: 2.5em;
+    list-style: none;
+    background: -webkit-linear-gradient(top, #585858, #3d3d3d);
+}
+
+.Mono{
+    height: 100%;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.Multi{
+    height: 100%;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.Item{
+    display: block;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    padding: 10px 20px 10px 20px;
+    border-right: 1px solid #444; 
+}
+
+.Item:last-child{
+    border-right: 0px; 
+}
+
+.Item, .SubMenuItem{
+    text-decoration: none;
+}
+
+.SubMenu{
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 200px;
+    margin: 0px;
+    top: 2.5em;
+    background-color: rgb(240, 240, 240);
+    font-weight: normal;
+    z-index: 99;
+    text-align: left;
+    box-shadow: rgba(100, 100, 100, 0.5) 2px 2px 8px;
+    font-size: 15px;
+}
+
+.SubMenuMono{
+    overflow-x: hidden;
+    border-bottom: 1px dotted #ccc; 
+}
+
+.SubMenuMono:last-child{
+    border-bottom: 0px;  
+}
+
+.SubMenuItem{
+    display: block;
+    color: #444;
+    width: 180px;
+    padding: 10px;
+}
+
+.Multi:hover ul{
+    display: block;
+}
+#Menu > li:hover{
+    background: -webkit-linear-gradient(top, rgb(250, 250, 250), rgb(230, 230, 230));
+}
+#Menu > li:hover a{
+    color: #444;
+}
+.SubMenu > li:hover{
+    background: -webkit-linear-gradient(top, rgb(250, 250, 250), rgb(220, 220, 220));
+}

@@ -1,5 +1,25 @@
-@import url("Fondo.css");
 *{
     margin: 0px;
     padding: 0px;
-    }
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding-top : 2em;
+}
+
+#ContenedorAll{
+    width: 1000px;
+    background-color: #eee;
+    position: relative;
+    border-radius: 5px; 
+    margin: 0 auto 2em;
+}
+
+.ReguladorDeFlujo{
+    clear: both;
+}
