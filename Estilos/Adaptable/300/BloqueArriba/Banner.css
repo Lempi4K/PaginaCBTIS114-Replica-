@@ -1,0 +1,52 @@
+#Banner{
+    width: 100%;
+    height: 175px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#LogoBanner{
+    width: 100%;
+    height: 100%;
+}
+
+#BannerLinkImg{
+    width: 95%;
+    height: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 35%);
+}
+
+#Links{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    top: 60px;
+    right: 30px;
+}
+#ListaLinks{
+    position: absolute;
+    list-style: none;
+
+}
+.ItemLink{
+    display: block;
+    position: relative;
+    float: left;
+    
+}
+.Link{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.LinkImagen{
+    width: 60px;
+    filter:grayscale(1)
+}
+
+.Link:hover img{
+    filter:grayscale(0)
+}

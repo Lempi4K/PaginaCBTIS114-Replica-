@@ -1,0 +1,72 @@
+#Cuerpo{
+    display: block;
+    position: relative;
+    float: left;
+    width: 705px;
+    margin-right: 20px;
+    font-family: Arial;
+    top: 0px;
+    box-shadow: rgba(100, 100, 100, 0.5) 2px 2px 8px;
+    border-radius: 5px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.Articulo{
+    display: inline-block;
+    width: 665px;
+    border-radius: 5px;
+}
+
+.ArtTitulo{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ArtSubTitulo{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    text-shadow: rgba(100, 100, 100, 0.5) 2px 2px 1px;
+}
+
+.ArtImg{
+    display: inline-block;
+    margin: 20px 0px;
+}
+.ArtImg > a{
+    display: inline-block;
+    height: 0px;
+}
+.ArtImg > a > img{
+    display: inline-block;
+    width: 665px;
+    height: auto;
+    border: dotted 1px rgb(100, 100, 100);
+    box-sizing: border-box;
+}
+
+.ArtLeerMas{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.ArtLeerMas > a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.CuerpoSep{
+    display: block;
+    height: 1px;
+    margin: 20px 0px;
+    border-bottom: rgb(230, 230, 230) solid 2px;
+}
