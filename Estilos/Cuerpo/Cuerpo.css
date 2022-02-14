@@ -30,6 +30,7 @@
     font-weight: bold;
     color: red;
     padding: 0px 20px;
+    text-shadow: rgba(100, 100, 100, 0.5) 2px 2px 1px;
 }
 
 .ArtImg{
