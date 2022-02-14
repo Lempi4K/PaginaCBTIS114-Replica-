@@ -10,14 +10,18 @@ body, html{
 
 body{
     padding-top : 2em;
+    border-radius: 5px; 
+    border-radius: 5px; 
 }
 
 #ContenedorAll{
     width: 1000px;
     background-color: #eee;
     position: relative;
+    box-sizing: border-box;
     border-radius: 5px; 
     margin: 0 auto 2em;
+    box-shadow: rgba(50, 50, 50, 0.5) 2px 2px 10px;
 }
 
 .ReguladorDeFlujo{

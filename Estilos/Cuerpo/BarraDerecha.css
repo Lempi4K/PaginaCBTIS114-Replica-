@@ -7,6 +7,7 @@
     top: 0px;
 }
 .Mosaico{
+    display: inline-block;
     width: 235px;
     border-radius: 5px;
     background-color: white;
@@ -32,15 +33,12 @@
 }
 
 .MosLink{
-    width: 215px;
     display: block;
     font-family: Arial;
     font-size: 12px;
-    margin-left: 16px;
-    padding: 0px 0px 10px 10px;
+    margin: 0px 10px 10px 25px;
 }
 .MosLink > ul > li > a{
     text-decoration: none;
     color: #1982d1;
-    width: 215px;
 }

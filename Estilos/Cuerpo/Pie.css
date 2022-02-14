@@ -1,7 +1,9 @@
 #Pie{
-width:100%;
-font-family: Arial;
-font-size: 12px;
+    width:100%;
+    font-family: Arial;
+    font-size: 12px;
+
+
 }
 
 #PieGrande{
@@ -33,6 +35,8 @@ background-color: rgb(250, 250, 250);
 border-top: rgb(200, 200, 200) solid 2px;
 color: rgb(25, 25, 25);
 width: 100%;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
 }
 .PieChicoP{
     width: 33.3333%;

@@ -1,5 +1,4 @@
 #Cuerpo{
-    box-sizing: border-box;
     display: block;
     position: relative;
     float: left;
@@ -10,55 +9,64 @@
     box-shadow: rgba(100, 100, 100, 0.5) 2px 2px 8px;
     border-radius: 5px;
     background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .Articulo{
-    width: 705px;
+    display: inline-block;
+    width: 665px;
     border-radius: 5px;
 }
 
 .ArtTitulo{
+    display: inline-block;
     font-size: 30px;
     font-weight: bold;
-    padding: 20px 20px;
 }
 
 .ArtSubTitulo{
-    width: 100%;
+    display: block;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     color: red;
-    padding: 0px 20px;
     text-shadow: rgba(100, 100, 100, 0.5) 2px 2px 1px;
 }
 
 .ArtImg{
-    width: 665px;
-
+    display: inline-block;
+    margin: 20px 0px;
+}
+.ArtImg > a{
+    display: inline-block;
+    height: 0px;
 }
 .ArtImg > a > img{
+    display: inline-block;
     width: 665px;
+    height: auto;
     border: dotted 1px rgb(100, 100, 100);
-    margin: 20px 20px;
+    box-sizing: border-box;
 }
 
 .ArtLeerMas{
-    padding-bottom: 20px;
-    padding-left: 20px;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    margin-left: 20px;
 }
 .ArtLeerMas > a{
     text-decoration: none;
     color: black;
-    padding: 5px;
-    background-color: rgb(230, 230, 230);
-    border-radius: 5px;
+
 
 }
 
 .CuerpoSep{
-    width: 665px;
+    display: block;
     height: 1px;
-    margin: 0px 20px;
+    margin: 20px 0px;
     border-bottom: rgb(230, 230, 230) solid 2px;
 }
