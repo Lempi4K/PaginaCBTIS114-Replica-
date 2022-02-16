@@ -7,7 +7,7 @@
 }
 
 #PieGrande{
-    width: 960px;
+    width: 660px;
     background-color: white;
     border-radius: 5px;
     box-shadow: rgba(50, 50, 50, 0.5) 2px 2px 10px;
@@ -15,9 +15,9 @@
     padding: 10px 0px;
 }
 .PieGrandeP{
-    width: 920px;
     text-align: center;
-    padding: 9px;
+    width: 640px;
+    padding: 9px 0px;
     margin: 0px 10px;
     color: rgb(25, 25, 25);
     border-top: rgb(200, 200, 200) solid 2px;
@@ -44,8 +44,8 @@ border-bottom-right-radius: 5px;
     position: relative;
     float: left;
     text-align: center;
-    top: 50px;
-    transform: translate(0%, -125%);
+    top: 50%;
+    transform: translate(0%, -50%);
 }
 .PieChicoP > strong > a{
     color: rgb(25, 25, 25);

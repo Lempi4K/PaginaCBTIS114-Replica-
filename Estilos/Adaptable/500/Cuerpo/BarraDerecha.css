@@ -3,13 +3,13 @@
     display: block;
     position: relative;
     float: left;
-    width: 660px;
+    width: 250px;
     top: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .Mosaico{
     display: inline-block;
-    width: 660px;
+    width: 250px;
     border-radius: 5px;
     background-color: white;
     box-shadow: rgba(100, 100, 100, 0.5) 2px 2px 8px;
@@ -19,26 +19,26 @@
     display: block;
     font-family: Arial;
     font-weight: bold;
-    font-size: 25px;
-    padding: 10px 20px;
+    font-size: 18px;
+    padding: 10px 10px;
     border-bottom: solid rgb(175, 175, 175) 1px;
 }
 
 .MosImg{
     display: block;
-    width: 620px;
-    padding: 20px 20px;
+    width: 230px;
+    padding: 10px 10px;
 
 }
 .MosImg > img{
-    width: 620px;
+    width: 230px;
 }
 
 .MosLink{
     display: block;
     font-family: Arial;
-    font-size: 18px;
-    margin: 0px 0px 20px 40px;
+    font-size: 10px;
+    margin: 0px 0px 10px 20px;
 }
 .MosLink > ul > li > a{
     text-decoration: none;

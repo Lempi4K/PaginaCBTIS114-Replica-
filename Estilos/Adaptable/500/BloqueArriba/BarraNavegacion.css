@@ -15,14 +15,14 @@
 }
 
 #ListaBN{
-    width: 430px;
-    height: 20px;
-    margin: 15px 20px;
+    width: 93%;
+    height: 12px;
+    margin: 4% 3%;
     background-color: transparent;
     border: none;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
 }
 #ListaBN:focus{ outline: none; }
 

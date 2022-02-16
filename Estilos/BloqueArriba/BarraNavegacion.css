@@ -2,27 +2,26 @@
     font-family: Arial;
     font-size: 15px;
     overflow-y: visible;
+    background: -webkit-linear-gradient(top, #585858, #3d3d3d);
 }
 
 #Menu{
     width: 100%;
     height: 2.5em;
     list-style: none;
-    background: -webkit-linear-gradient(top, #585858, #3d3d3d);
 }
 
-.Mono{
+.Mono, .Multi{
     height: 100%;
     position: relative;
     float: left;
     text-align: center;
+    border-right: 1px solid #444; 
 }
 
-.Multi{
-    height: 100%;
-    position: relative;
-    float: left;
-    text-align: center;
+
+#Menu > li:last-child{
+    border-right: 0px;
 }
 
 .Item{
@@ -31,17 +30,12 @@
     color: white;
     position: relative;
     padding: 10px 20px 10px 20px;
-    border-right: 1px solid #444; 
 }
 
-.Item:last-child{
-    border-right: 0px; 
-}
 
 .Item, .SubMenuItem{
     text-decoration: none;
 }
-
 .SubMenu{
     display: none;
     position: absolute;
@@ -87,4 +81,8 @@
 }
 .SubMenu > li:hover{
     background: -webkit-linear-gradient(top, rgb(250, 250, 250), rgb(220, 220, 220));
+}
+
+#MenuChico{
+    display: none;
 }
